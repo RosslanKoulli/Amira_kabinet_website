@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DentalCare Pro - Modern Dental Excellence</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">DentalCare Pro</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#team">Our Team</a></li>
+                <li><a href="#technology">Technology</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#book" class="cta-button">Book Appointment</a></li>
+            </ul>
+            <button class="menu-toggle" id="menuToggle">☰</button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Your Smile, Our Passion</h1>
+                <p>Experience world-class dental care with cutting-edge technology and a gentle touch</p>
+                <div class="hero-buttons">
+                    <a href="#book" class="btn-primary">📅 Book Now</a>
+                    <a href="#services" class="btn-secondary">Our Services</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-card">
+                    <form class="booking-form" id="quickBooking">
+                        <h3>Quick Appointment</h3>
+                        <div class="form-group">
+                            <label>Full Name</label>
+                            <input type="text" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Phone</label>
+                            <input type="tel" placeholder="+359 888 123 456" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Service</label>
+                            <select required>
+                                <option value="">Select Service</option>
+                                <option>General Checkup</option>
+                                <option>Teeth Cleaning</option>
+                                <option>Orthodontics</option>
+                                <option>Dental Implants</option>
+                                <option>Cosmetic Dentistry</option>
+                                <option>Root Canal</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Preferred Date</label>
+                            <input type="date" required>
+                        </div>
+                        <button type="submit" class="submit-btn">Request Appointment</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="services-container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p>Comprehensive dental care tailored to your needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🦷</div>
+                    <h3>General Dentistry</h3>
+                    <p>Complete oral health examinations, preventive care, and routine dental treatments for the whole family</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">✨</div>
+                    <h3>Cosmetic Dentistry</h3>
+                    <p>Transform your smile with veneers, teeth whitening, and aesthetic restorations</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🔧</div>
+                    <h3>Orthodontics</h3>
+                    <p>Modern teeth alignment solutions including invisible braces and traditional orthodontic treatments</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💎</div>
+                    <h3>Dental Implants</h3>
+                    <p>Permanent tooth replacement solutions that look and feel like natural teeth</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🧪</div>
+                    <h3>Root Canal Therapy</h3>
+                    <p>Advanced endodontic treatments to save damaged teeth using microscopic precision</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">👶</div>
+                    <h3>Pediatric Dentistry</h3>
+                    <p>Gentle, child-friendly dental care creating positive experiences for young patients</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="section-header">
+            <h2>Why Choose Us</h2>
+            <p>Excellence in every aspect of dental care</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature">
+                <div class="feature-icon">🏆</div>
+                <h3>Award-Winning Care</h3>
+                <p>Internationally recognized for excellence in dental treatments and patient satisfaction</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">👥</div>
+                <h3>Expert Team</h3>
+                <p>US-trained specialists with decades of combined experience</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🔬</div>
+                <h3>Advanced Technology</h3>
+                <p>State-of-the-art equipment including digital scanning and 3D imaging</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🌟</div>
+                <h3>Comfort First</h3>
+                <p>Luxurious environment designed for your relaxation and peace of mind</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team" id="team">
+        <div class="section-header">
+            <h2>Meet Our Specialists</h2>
+            <p>Dedicated professionals committed to your dental health</p>
+        </div>
+        <div class="team-grid">
+            <div class="team-member">
+                <div class="member-image">👨‍⚕️</div>
+                <div class="member-info">
+                    <h3>Dr. Alexander Petrov</h3>
+                    <p class="role">Chief Dental Officer</p>
+                    <p>Harvard-trained specialist with 20+ years experience in advanced restorative dentistry</p>
+                </div>
+            </div>
+            <div class="team-member">
+                <div class="member-image">👩‍⚕️</div>
+                <div class="member-info">
+                    <h3>Dr. Maria Dimitrova</h3>
+                    <p class="role">Orthodontist</p>
+                    <p>Specialized in invisible aligners and pediatric orthodontics with training from Boston University</p>
+                </div>
+            </div>
+            <div class="team-member">
+                <div class="member-image">👨‍⚕️</div>
+                <div class="member-info">
+                    <h3>Dr. Stefan Nikolov</h3>
+                    <p class="role">Oral Surgeon</p>
+                    <p>Expert in dental implants and complex oral surgery procedures</p>
+                </div>
+            </div>
+            <div class="team-member">
+                <div class="member-image">👩‍⚕️</div>
+                <div class="member-info">
+                    <h3>Dr. Elena Georgieva</h3>
+                    <p class="role">Endodontist</p>
+                    <p>Microscopic root canal specialist with advanced training from UCLA</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Section -->
+    <section class="technology" id="technology">
+        <div class="section-header">
+            <h2>Cutting-Edge Technology</h2>
+            <p>Innovation meets precision in modern dentistry</p>
+        </div>
+        <div class="tech-showcase">
+            <div class="tech-item">
+                <div class="icon">📡</div>
+                <h4>Digital X-Ray</h4>
+                <p>90% less radiation with instant results</p>
+            </div>
+            <div class="tech-item">
+                <div class="icon">🔬</div>
+                <h4>Dental Microscope</h4>
+                <p>25x magnification for precision treatments</p>
+            </div>
+            <div class="tech-item">
+                <div class="icon">💻</div>
+                <h4>3D Scanning</h4>
+                <p>Digital impressions without discomfort</p>
+            </div>
+            <div class="tech-item">
+                <div class="icon">🦴</div>
+                <h4>CBCT Imaging</h4>
+                <p>3D visualization for perfect implant placement</p>
+            </div>
+            <div class="tech-item">
+                <div class="icon">⚡</div>
+                <h4>Laser Dentistry</h4>
+                <p>Painless procedures with faster healing</p>
+            </div>
+            <div class="tech-item">
+                <div class="icon">💨</div>
+                <h4>Air Flow Therapy</h4>
+                <p>Gentle biofilm removal technology</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Visit Our Clinic</h3>
+                <div class="contact-item">
+                    <span class="icon">📍</span>
+                    <div>
+                        <p>123 Vitosha Boulevard</p>
+                        <p>Sofia 1000, Bulgaria</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <span class="icon">📞</span>
+                    <div>
+                        <p>+359 2 123 4567</p>
+                        <p>+359 888 765 4321</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <span class="icon">✉️</span>
+                    <div>
+                        <p>info@dentalcarepro.bg</p>
+                        <p>appointments@dentalcarepro.bg</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-info">
+                <h3>Working Hours</h3>
+                <div class="contact-item">
+                    <span class="icon">🕒</span>
+                    <div>
+                        <p><strong>Monday - Friday:</strong> 8:00 - 20:00</p>
+                        <p><strong>Saturday:</strong> 9:00 - 16:00</p>
+                        <p><strong>Sunday:</strong> Emergency only</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <span class="icon">🚨</span>
+                    <div>
+                        <p><strong>24/7 Emergency Line:</strong></p>
+                        <p>+359 888 911 911</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-info">
+                <h3>Insurance & Payment</h3>
+                <div class="contact-item">
+                    <span class="icon">💳</span>
+                    <div>
+                        <p>We accept all major insurance plans</p>
+                        <p>Flexible payment options available</p>
+                        <p>0% financing for treatments over €500</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 DentalCare Pro. All rights reserved.</p>
+            <p>Excellence in Dental Care Since 2008</p>
+            <div class="social-links">
+                <a href="#">📘</a>
+                <a href="#">📷</a>
+                <a href="#">🐦</a>
+                <a href="#">💼</a>
+                <a href="#">📹</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
